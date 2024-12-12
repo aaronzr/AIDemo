@@ -2,13 +2,15 @@
 
 ## Setup
 1. Install JRE 8 and JDK 21.
-   ```sudo apt install openjdk-21-jdk```
+   ```
+   sudo apt install openjdk-21-jdk
+   ```
    `java --version` should yield something like:
-  ```
-  java 21.0.5 2024-10-15 LTS
-  Java(TM) SE Runtime Environment (build 21.0.5+9-LTS-239)
-  Java HotSpot(TM) 64-Bit Server VM (build 21.0.5+9-LTS-239, mixed mode, sharing)
-  ```
+```
+java 21.0.5 2024-10-15 LTS
+Java(TM) SE Runtime Environment (build 21.0.5+9-LTS-239)
+Java HotSpot(TM) 64-Bit Server VM (build 21.0.5+9-LTS-239, mixed mode, sharing)
+```
 (You may also be able to use a Docker container such as https://adoptium.net/temurin/releases/ or https://hub.docker.com/_/eclipse-temurin but I haven't tried this yet.)
 
 2. Spin up the Ollama server:
