@@ -1,7 +1,7 @@
 # AI for ELOG: RAG Demo
 
 ## Setup
-1. Install JRE 8 and JDK 21. `java --version` should yield something like:
+1. Install JRE 8 and JDK 21. ```sudo apt install openjdk-21-jdk``` `java --version` should yield something like:
 ```
 java 21.0.5 2024-10-15 LTS
 Java(TM) SE Runtime Environment (build 21.0.5+9-LTS-239)
